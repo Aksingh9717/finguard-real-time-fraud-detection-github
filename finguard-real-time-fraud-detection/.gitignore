@@ -1,0 +1,28 @@
+# Secrets
+.env
+*.env
+*.pem
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated data
+producer/data/generated/
+*.log
+
+# Databricks local state
+.databricks/
